@@ -131,4 +131,9 @@
     }
 }
 
+- (void)onClick5:(UIButton *)btn
+{
+    NSLog(@"1111");
+}
+
 @end
