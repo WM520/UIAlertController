@@ -15,6 +15,8 @@
 		93AD1DFA1CF6814A00C204A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93AD1DF81CF6814A00C204A8 /* LaunchScreen.storyboard */; };
 		93AD1E051CF6814A00C204A8 /* UIAlertControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AD1E041CF6814A00C204A8 /* UIAlertControllerTests.m */; };
 		93AD1E101CF6814A00C204A8 /* UIAlertControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AD1E0F1CF6814A00C204A8 /* UIAlertControllerUITests.m */; };
+		93AD1E331CF6E47300C204A8 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AD1E311CF6E47300C204A8 /* TableViewCell.m */; };
+		93AD1E341CF6E47300C204A8 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93AD1E321CF6E47300C204A8 /* TableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		93AD1E0B1CF6814A00C204A8 /* UIAlertControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIAlertControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93AD1E0F1CF6814A00C204A8 /* UIAlertControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIAlertControllerUITests.m; sourceTree = "<group>"; };
 		93AD1E111CF6814A00C204A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93AD1E301CF6E47300C204A8 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		93AD1E311CF6E47300C204A8 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		93AD1E321CF6E47300C204A8 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +110,9 @@
 				93AD1DEE1CF6814A00C204A8 /* AppDelegate.m */,
 				93AD1DF01CF6814A00C204A8 /* ViewController.h */,
 				93AD1DF11CF6814A00C204A8 /* ViewController.m */,
+				93AD1E301CF6E47300C204A8 /* TableViewCell.h */,
+				93AD1E311CF6E47300C204A8 /* TableViewCell.m */,
+				93AD1E321CF6E47300C204A8 /* TableViewCell.xib */,
 				93AD1DF31CF6814A00C204A8 /* Main.storyboard */,
 				93AD1DF61CF6814A00C204A8 /* Assets.xcassets */,
 				93AD1DF81CF6814A00C204A8 /* LaunchScreen.storyboard */,
@@ -244,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				93AD1DFA1CF6814A00C204A8 /* LaunchScreen.storyboard in Resources */,
+				93AD1E341CF6E47300C204A8 /* TableViewCell.xib in Resources */,
 				93AD1DF71CF6814A00C204A8 /* Assets.xcassets in Resources */,
 				93AD1DF51CF6814A00C204A8 /* Main.storyboard in Resources */,
 			);
@@ -271,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				93AD1DF21CF6814A00C204A8 /* ViewController.m in Sources */,
+				93AD1E331CF6E47300C204A8 /* TableViewCell.m in Sources */,
 				93AD1DEF1CF6814A00C204A8 /* AppDelegate.m in Sources */,
 				93AD1DEC1CF6814A00C204A8 /* main.m in Sources */,
 			);
@@ -498,6 +508,7 @@
 				93AD1E161CF6814A00C204A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		93AD1E171CF6814A00C204A8 /* Build configuration list for PBXNativeTarget "UIAlertControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +517,7 @@
 				93AD1E191CF6814A00C204A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		93AD1E1A1CF6814A00C204A8 /* Build configuration list for PBXNativeTarget "UIAlertControllerUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +526,7 @@
 				93AD1E1C1CF6814A00C204A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
